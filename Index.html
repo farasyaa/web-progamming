@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zahriellë</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <nav class="navbar-zalora border-bottom">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center py-3">
+                <div class="col-md-3">
+                    <a class="logo-text text-decoration-none" href="#">Zahriellë</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group search-wrapper">
+                        <input type="text" class="form-control rounded-pill-start shadow-none">
+                        <button class="btn btn-dark rounded-pill-end px-4" type="button">
+                            <i class="bi bi-search fw-bold"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-end align-items-center gap-4">
+                    <a href="login.html" class="user-item"><i class="bi bi-person fs-5"></i> Masuk / Daftar</a>
+                    <a href="Riview.html" class="user-item"><i class="bi bi-star fs-5"></i></a>
+                    <a href="Keranjang.html" class="user-item"><i class="bi bi-bag fs-5"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-category" id="mainNav">
+                        <li class="nav-item"><a class="nav-link active" href="Index.html">ALL</a></li>
+                        <li class="nav-item"><a class="nav-link " href="ProdukCharm.html">CHARM & OTHER</a></li>
+                        <li class="nav-item"><a class="nav-link " href="ProdukKalung.html">KALUNG</a></li>
+                        <li class="nav-item"><a class="nav-link " href="ProdukGelang.html">GELANG</a></li>
+                        <li class="nav-item"><a class="nav-link " href="ProdukCincin.html">CINCIN</a></li>
+                        <li class="nav-item"><a class="nav-link " href="ProdukAnting.html">ANTING</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid px-5 mt-5">
+        <div class="row">
+            <aside class="col-md-3 pe-5">
+                <div class="filter-container shadow-sm p-3 mb-3">
+                    <div class="accordion accordion-flush" id="accordionKategori">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold text-dark p-0 bg-white shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseKategori">
+                                    Kategori
+                                </button>
+                            </h2>
+                            <div id="collapseKategori" class="accordion-collapse collapse show">
+                                <div class="accordion-body p-0 mt-3">
+                                    <div id="collapseChips" class="collapse show">
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <div class="chip active">All</div>
+                                            <div class="chip">Kalung</div>
+                                            <div class="chip">Anting</div>
+                                            <div class="chip">Gelang</div>
+                                            <div class="chip">Cincin</div>
+                                            <div class="chip">Charms & Other</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div>
+                        <h4 class="fw-normal mb-0">Zahriellë</h4>
+                    </div>
+                </div>
+
+
+                <!--produk 1-->
+                <div class="row g-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card sha">
+                            <div class="image-wrapper position-relative">
+                                <img src="Charm01.jpeg.png" class="product-img" alt="Produk 1">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Heart padlock sterling silver and 14k rose gold-plated double dangle with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.064.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp
+                                        1.120.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 2-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Charm03.jpeg.png" class="product-img" alt="Produk 2">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Pansy sterling silver charm with clear cubic zirconia, burnt orange crystal, shaded pink and white enamel</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.064.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.120.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 3-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Charm02.jpeg.png" class="product-img" alt="Produk 3">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Movable cherry blossom sterling silver dangle with fancy pink cubic zirconia and shaded pink enamel</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.064.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.120.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 4-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Kalung01.jpeg.png" class="product-img" alt="Produk 4">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Heart sterling silver collier with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.527.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.602.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 5-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Kalung02.jpeg.png" class="product-img" alt="Produk 5">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Heart and butterfly sterling silver collier with clear cubic zirconiar</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.404.100</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.470.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 6-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Kalung03.jpeg.png" class="product-img" alt="Produk 6">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Clover sterling silver collier with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.900.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.975.000</span>
+                                    <span class="badge-discount">-4%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 7-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Gelang01.jpeg.png" class="product-img" alt="Produk 7">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Sterling silver bracelet with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.900.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.975.000</span>
+                                    <span class="badge-discount">-4%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 8-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Gelang02.jpeg.png" class="product-img" alt="Produk 8">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Disney Stitch snake chain sterling silver bracelet with purple, black and blue enamel</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.895.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.970.000</span>
+                                    <span class="badge-discount">-4%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--produk 9-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Gelang03.jpeg.png" class="product-img" alt="Produk 9">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Snake chain sterling silver bracelet with butterfly clasp with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.527.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.602.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 10-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Cincin01.jpeg.png" class="product-img" alt="Produk 10">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Disney Minnie Mouse sterling silver ring with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.286.300</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.354.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 11-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Cincin02.jpeg.png" class="product-img" alt="Produk 11">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Crown sterling silver ring with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.527.000</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.602.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 12-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Cincin03.jpeg.png" class="product-img" alt="Produk 12">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Wishbone silver ring with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 731.500</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 770.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 13-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Anting01.jpeg.png" class="product-img" alt="Produk 13">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Silver stud earring with cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 902.500</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 950.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 14-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Anting02.jpeg.png" class="product-img" alt="Produk 14">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Sparkling Infinity Stud Earrings - Silver</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 696.350</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 733.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--produk 15-->
+                    <div class="col-md-4">
+                        <div class="product-card border-0">
+                            <div class="image-wrapper position-relative">
+                                <img src="Anting03.jpeg.png" class="product-img" alt="Produk 15">
+                                <div class="promo-black">
+                                    <p class="fw-bold mb-0">5% off</p>
+                                    <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="fw-bold">Zahriellë</h6>
+                                    <i class="bi bi-heart wishlist-icon"></i>
+                                </div>
+                                <p class="text-muted small text-truncate">Infinity heart sterling silver stud earrings with clear cubic zirconia</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <h5 class="text-danger fw-bold mb-0">Rp 1.049.750</h5>
+                                    <span class="text-muted text-decoration-line-through old-price-text">Rp 1.105.000</span>
+                                    <span class="badge-discount">-5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <br>
+
+
+<section class="feature-section container-fluid bg-white border-top border-top">
+    <div class="row text-center">
+        <!-- Item 1 -->
+        <div class="col-md-3">
+            <div class="feature-box">
+                <i class="bi bi-truck feature-icon"></i>
+                <h6 class="feature-title">GRATIS ONGKIR</h6>
+                <p class="feature-desc">
+                    Tanpa minimum belanja untuk seluruh wilayah Indonesia.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature-box">
+                <i class="bi bi-arrow-left-right feature-icon"></i>
+                <h6 class="feature-title">30 HARI PENGEMBALIAN</h6>
+                <p class="feature-desc">
+                    Kebijakan pengembalian produk gratis dalam 30 hari.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature-box">
+                <i class="bi bi-patch-check feature-icon"></i>
+                <h6 class="feature-title">100% ORIGINAL</h6>
+                <p class="feature-desc">
+                    Jaminan keaslian produk perhiasan dari Zahriellë.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="feature-box">
+                <i class="bi bi-shield-lock feature-icon"></i>
+                <h6 class="feature-title">PEMBAYARAN AMAN</h6>
+                <p class="feature-desc">
+                    Keamanan transaksi dengan enkripsi tingkat tinggi.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="bg-black text-white mt-5 pt-5 pb-4">
+        <div class="container px-5">
+            <div class="row">
+                <div class="col-md-4 pe-5">
+                    <h2 class="fw-bold mb-4">Zahriellë</h2>
+                    <p class="small text-secondary">Sebagai Pusat Aksesories Online di Asia, kami menciptakan
+                        kemungkinan gaya tanpa batas dengan cara memperluas jangkauan produk,
+                        mulai dari produk internasional hingga produk lokal.
+                        Kami menjadikan Anda sebagai pusatnya. Bersama Zahriellë, You Own Now.</p>
+                    <div class="mt-4">
+                        <p class="fw-bold mb-1">Layanan Pengaduan Konsumen</p>
+                        <ul class="list-unstyled small text-secondary lh-lg">
+                            <li>E-mail: customer@id.Zahriellë.com</li>
+                            <li>Telepon: 020-02271026</li>
+                            <li>WhatsApp: +62 851 4877 9287</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex gap-3 mt-4 fs-4">
+                        <i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-youtube"></i><i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold mb-4">LAYANAN</h6>
+                    <ul class="list-unstyled small text-secondary lh-lg">
+                        <li>Bantuan</li>
+                        <li>Cara Pengembalian</li>
+                        <li>Promo Partner Kami</li>
+                        <li>Status Order</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold mb-4">TENTANG KAMI</h6>
+                    <ul class="list-unstyled small text-secondary lh-lg">
+                        <li>About Us</li>
+                        <li>Persyaratan & Ketentuan</li>
+                        <li>Kebijakan Privasi</li>
+                        <li>Influencer Progam</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-4">ANDA BARU DI Zahriellë</h6>
+                    <p class="small text-secondary mt-4">Dapatkan berita mode terbaru dan peluncuran produk hanya dengan
+                        subscribe newsletter kami.</p>
+                    <label class="small text-secondary mb-2 d-block">Alamat email kamu</label>
+                    <input type="text" class="form-control bg-white mb-3">
+                    <div class="d-flex gap-2 mb-4">
+                        <button class="btn btn-outline-white border-white text-white flex-grow-1">WANITA</button>
+                        <button class="btn btn-outline-white border-white text-white flex-grow-1">PRIA</button>
+                    </div>
+                    <p class="small text-secondary mt-4">Dengan mendaftar, Anda menyetujui persyaratan dalam Kebijakan
+                        Privasi kami</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

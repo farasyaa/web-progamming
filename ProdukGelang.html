@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zahriellë</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <nav class="navbar-zalora border-bottom">
+        <div class="container-fluid px-5">
+            <div class="row align-items-center py-3">
+                <div class="col-md-3">
+                    <a class="logo-text text-decoration-none" href="#">Zahriellë</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group search-wrapper">
+                        <input type="text" class="form-control rounded-pill-start shadow-none">
+                        <button class="btn btn-dark rounded-pill-end px-4" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-end align-items-center gap-4">
+                    <a href="Login.html" class="user-item"><i class="bi bi-person fs-5"></i> Masuk / Daftar</a>
+                    <a href="Riview.html" class="user-item"><i class="bi bi-star fs-5"></i></a>
+                    <a href="Keranjang.html" class="user-item"><i class="bi bi-bag fs-5"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-category" id="mainNav">
+                        <li class="nav-item"><a class="nav-link" href="Index.html">ALL</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ProdukCharm.html">CHARM & OTHER</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ProdukKalung.html">KALUNG</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="ProdukGelang.html">GELANG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ProdukCincin.html">CINCIN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ProdukAnting.html">ANTING</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <!-- Produk 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk1">
+                            <img src="Gelang04.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Snake chain sterling silver bracelet with infinity heart clasp with clear cubic zirconia</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.527.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.602.000</span>
+                            <span class="badge-discount">-5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk2">
+                            <img src="Gelang05.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Heart sterling silver tennis bracelet with clear cubic zirconia</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.900.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.975.000</span>
+                            <span class="badge-discount">-4%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk3">
+                            <img src="Gelang06.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Zahriellë Moments Studded Chain Bracelet - 17 - Silver</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.527.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.602.000</span>
+                            <span class="badge-discount">-5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk4">
+                            <img src="Gelang07.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Sparkling Halo Tennis Bracelet - 18 - Silver</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.651.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.726.000</span>
+                            <span class="badge-discount">-4%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk5">
+                            <img src="Gelang08.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Round Clasp Wing Chain Bracelet, Sterling silver - 18</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.404.100</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.470.000</span>
+                            <span class="badge-discount">-5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk6">
+                            <img src="Gelang09.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Disney The Lion King sterling silver bracelet with brown and black leather</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.049.750</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.190.000</span>
+                            <span class="badge-discount">-12%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 7 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk7">
+                            <img src="Gelang10.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Bow Sterling Silver Bracelet with Fancy Pink and Clear Cubic Zirconia - 16</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.651.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.726.000</span>
+                            <span class="badge-discount">-4%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 8 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk8">
+                            <img src="Gelang11.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Snake chain sterling silver bracelet with clear cubic zirconia</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.527.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.700.000</span>
+                            <span class="badge-discount">-10%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk 9 -->
+            <div class="col-md-4 mb-4">
+                <div class="product-card border-0 h-100">
+                    <div class="image-wrapper position-relative">
+                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalProduk9">
+                            <img src="Gelang12.jpeg.png" class="card-img-top rounded-3" alt="">
+                        </a>
+                        <div class="promo-black">
+                            <p class="fw-bold mb-0">5% off</p>
+                            <p class="promo-detail mb-0">Min. belanja Rp 1.000.000, maks. potongan Rp 75.000.</p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="fw-bold">Zahriellë</h6>
+                            <i class="bi bi-heart wishlist-icon"></i>
+                        </div>
+                        <p class="text-muted small text-truncate">Heart sterling silver tennis bracelet with cherries jubilee red crystal and clear cubic zirconia</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <h5 class="text-danger fw-bold mb-0">Rp 1.900.000</h5>
+                            <span class="text-muted text-decoration-line-through old-price-text">Rp 1.975.000</span>
+                            <span class="badge-discount">-4%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal Produk 1 -->
+    <div class="modal fade" id="modalProduk1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang04.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.527.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Snake Chain Sterling Silver ini dihiasi dengan pengunci berbentuk hati jalinan infinity bertabur zirkon bening. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: One Size</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 2 -->
+    <div class="modal fade" id="modalProduk2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang05.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.900.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Heart Sterling Silver Tennis ini dihiasi dengan jajaran batu zirkon dan sebuah batu utama berbentuk hati yang berkilau. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: One Size</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 3 -->
+    <div class="modal fade" id="modalProduk3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang06.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.527.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Moments Studded Chain Bracelet ini dihiasi dengan tekstur rantai berpola unik dan pengunci berbentuk hati yang manis. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: One Size</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 4 -->
+    <div class="modal fade" id="modalProduk4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang07.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.651.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Sparkling Halo Tennis Bracelet ini dihiasi dengan sebuah permata bulat berbingkai halo di tengah barisan zirkon mewah. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: One Size</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 5 -->
+    <div class="modal fade" id="modalProduk5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang08.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.404.100</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Round Clasp Wing Chain ini dihiasi dengan pola rantai menyerupai sayap yang tegas berpadu pengunci bulat klasik. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: 18cm</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 6 -->
+    <div class="modal fade" id="modalProduk6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang09.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.049.750</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Disney The Lion King ini dihiasi dengan jalinan kulit hitam-cokelat kasual serta pengunci perak berbentuk siluet Simba. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: One Size</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 7 -->
+    <div class="modal fade" id="modalProduk7" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang10.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.651.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Bow Sterling Silver Bracelet ini dihiasi dengan detail berbentuk pita manis dari batu kristal fancy pink yang berkilau. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: 18cm</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 8 -->
+    <div class="modal fade" id="modalProduk8" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang11.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.527.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Snake Chain Sterling Silver ini dihiasi dengan pengunci bulat bermotif bintang asimetris berbalut warna gelap yang kontras. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: 19cm</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Produk 9 -->
+    <div class="modal fade" id="modalProduk9" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="modal-image-wrapper mb-3">
+                        <img src="Gelang12.jpeg.png" class="img-fluid modal-product-img" alt="">
+                    </div>
+                    <h4 class="fw-bold">Zahriellë</h4>
+                    <h5 class="text-danger">Rp 1.900.000</h5>
+                    <hr>
+                    <p class="text-start">
+                        <strong>Deskripsi Produk:</strong><br>
+                        Gelang Heart Sterling Silver Tennis ini dihiasi dengan aksen batu utama berbentuk hati berwarna merah ceri yang memikat. Didesain dengan detail elegan untuk memberikan kesan mewah namun tetap minimalis bagi pemakainya.
+                    </p>
+                    <ul class="text-start small">
+                        <li>Bahan: Sterling Silver 925</li>
+                        <li>Variasi: Silver</li>
+                        <li>Ukuran: 16cm</li>
+                    </ul>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-dark flex-grow-1 py-2 fw-normal" style="border-radius: 8px; background-color: #404040; border: none;">Tambah ke Keranjang</button>
+                    <button type="button" class="btn btn-outline-secondary px-3" style="border-radius: 8px; border: 1px solid #ccc;">
+                        <i class="bi bi-heart text-muted"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="feature-section container-fluid bg-white border-top">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="bi bi-truck feature-icon"></i>
+                    <h6 class="feature-title">GRATIS ONGKIR</h6>
+                    <p class="feature-desc">Tanpa minimum belanja untuk seluruh wilayah Indonesia.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="bi bi-arrow-left-right feature-icon"></i>
+                    <h6 class="feature-title">30 HARI PENGEMBALIAN</h6>
+                    <p class="feature-desc">Kebijakan pengembalian produk gratis dalam 30 hari.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="bi bi-patch-check feature-icon"></i>
+                    <h6 class="feature-title">100% ORIGINAL</h6>
+                    <p class="feature-desc">Jaminan keaslian produk perhiasan dari Zahriellë.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="feature-box">
+                    <i class="bi bi-shield-lock feature-icon"></i>
+                    <h6 class="feature-title">PEMBAYARAN AMAN</h6>
+                    <p class="feature-desc">Keamanan transaksi dengan enkripsi tingkat tinggi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-black text-white mt-5 pt-5 pb-4">
+        <div class="container px-5">
+            <div class="row">
+                <div class="col-md-4 pe-5">
+                    <h2 class="fw-bold mb-4">Zahriellë</h2>
+                    <p class="small text-secondary">Sebagai Pusat Aksesories Online di Asia, kami menciptakan kemungkinan gaya tanpa batas dengan cara memperluas jangkauan produk, mulai dari produk internasional hingga produk lokal. Kami menjadikan Anda sebagai pusatnya. Bersama Zahriellë, You Own Now.</p>
+                    <div class="mt-4">
+                        <p class="fw-bold mb-1">Layanan Pengaduan Konsumen</p>
+                        <ul class="list-unstyled small text-secondary lh-lg">
+                            <li>E-mail: customer@id.Zahriellë.com</li>
+                            <li>Telepon: 020-02271026</li>
+                            <li>WhatsApp: +62 851 4877 9287</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex gap-3 mt-4 fs-4">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold mb-4">LAYANAN</h6>
+                    <ul class="list-unstyled small text-secondary lh-lg">
+                        <li>Bantuan</li>
+                        <li>Cara Pengembalian</li>
+                        <li>Promo Partner Kami</li>
+                        <li>Status Order</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold mb-4">TENTANG KAMI</h6>
+                    <ul class="list-unstyled small text-secondary lh-lg">
+                        <li>About Us</li>
+                        <li>Persyaratan & Ketentuan</li>
+                        <li>Kebijakan Privasi</li>
+                        <li>Influencer Progam</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-4">ANDA BARU DI Zahriellë</h6>
+                    <p class="small text-secondary mt-4">Dapatkan berita mode terbaru dan peluncuran produk hanya dengan subscribe newsletter kami.</p>
+                    <label class="small text-secondary mb-2 d-block">Alamat email kamu</label>
+                    <input type="text" class="form-control bg-white mb-3">
+                    <div class="d-flex gap-2 mb-4">
+                        <button class="btn btn-outline-white border-white text-white flex-grow-1">WANITA</button>
+                        <button class="btn btn-outline-white border-white text-white flex-grow-1">PRIA</button>
+                    </div>
+                    <p class="small text-secondary mt-4">Dengan mendaftar, Anda menyetujui persyaratan dalam Kebijakan Privasi kami</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
